@@ -1,0 +1,35 @@
+# Ambientes virtuais Python
+.venv/
+.venv310/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos do Windows (não rodam no Linux)
+*.exe
+chromedriver-win64/
+
+# Logs e debug
+*.log
+*.png
+debug_*
+
+# Pastas de teste e download
+teste/
+downloaded_files/
+seleniumpictures/
+
+# Git
+.git/
+.gitignore
+
+# Arquivos sensíveis (vão como secrets)
+firebase_credentials.json
+.env
+
+# Configurações locais
+fly.toml

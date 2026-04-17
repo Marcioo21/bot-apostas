@@ -1,0 +1,11 @@
+venv/
+.venv/
+.venv310/
+__pycache__/
+*.log
+.env
+firebase_credentials.json
+chromedriver.exe
+chromedriver-win64/
+downloaded_files/
+seleniumpictures/

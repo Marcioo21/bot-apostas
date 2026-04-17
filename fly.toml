@@ -1,0 +1,15 @@
+app = "bot-purple-moon-9469"
+primary_region = "gru"
+
+[build]
+
+[[vm]]
+  memory = "512mb"
+  cpu_kind = "shared"
+  cpus = 1
+
+# Removendo a seção [services] completamente
+# e configurando como processo puro
+
+[processes]
+  app = "python main.py --live"
