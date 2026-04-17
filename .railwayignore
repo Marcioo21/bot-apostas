@@ -1,0 +1,10 @@
+venv/
+.venv/
+.venv310/
+__pycache__/
+chromedriver.exe
+chromedriver-win64/
+downloaded_files/
+seleniumpictures/
+*.log
+.env
